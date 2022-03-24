@@ -1,0 +1,1 @@
+export default (num: number | string) => Number(num).toLocaleString('en-us')
