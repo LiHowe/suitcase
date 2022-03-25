@@ -4,13 +4,15 @@
   "engines": {
     "node": ">=12"
   },
-  "main": "./lib/index.umd.js",
+  "jsdelivr": "lib/index.iife.js",
+  "unpkg": "lib/index.iife.js",
+  "main": "./lib/index.cjs.js",
   "module": "./lib/index.es.js",
   "browser": "./lib/index.umd.js",
   "exports": {
     ".": {
       "import": "./lib/index.es.js",
-      "require": "./lib/index.umd.js",
+      "require": "./lib/index.cjs.js",
       "browser": "./lib/index.umd.js"
     },
     "./*": "./*"
