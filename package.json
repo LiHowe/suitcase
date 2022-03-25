@@ -1,9 +1,29 @@
 {
-  "name": "@howe/suitcase",
+  "name": "@ziho/suitcase",
   "version": "0.0.1",
-  "main": "./dist/index.umd.js",
-  "module": "./dist/index.es.js",
-  "description": "A 'small' set of utilities for quickly developing",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "author": "LiHowe <howe.personal@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "suitcase",
+    "TypeScript",
+    "JavaScript",
+    "ES6",
+    "util"
+  ],
+  "homepage": "https://github.com/LiHowe/suitcase",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LiHowe/suitcase"
+  },
+  "bugs": {
+    "url": "https://github.com/LiHowe/suitcase/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "description": "A collection of useful code snippets for Frontend Development.",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build"
