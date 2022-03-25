@@ -1,4 +1,4 @@
-export default function htmlEscape (str: string) {
+export function htmlEscape (str: string) {
   const htmlEscapeMap: Record<string, string> = {
       '&': '&amp;',
       '<': '&lt;',

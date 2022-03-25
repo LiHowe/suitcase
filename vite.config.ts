@@ -7,6 +7,7 @@ export default defineConfig({
       name: 'suitcase',
       entry: resolve(__dirname, './src/index.ts'),
       fileName: (format) => `index.${format}.js`
-    }
+    },
+    outDir: resolve(__dirname, './lib'),
   }
 })

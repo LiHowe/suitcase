@@ -1,4 +1,4 @@
-export default function htmlUnescape (str: string){
+export function htmlUnescape (str: string){
   const htmlUnescapeMap: Record<string, string> = {
     '&amp;': '&',
     '&#38;': '&',

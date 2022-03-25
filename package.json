@@ -1,8 +1,21 @@
 {
   "name": "@ziho/suitcase",
-  "version": "0.0.1",
-  "main": "dist/index.umd.js",
-  "module": "dist/index.es.js",
+  "version": "0.0.2",
+  "engines": {
+    "node": ">=12"
+  },
+  "main": "./lib/index.umd.js",
+  "module": "./lib/index.es.js",
+  "browser": "./lib/index.umd.js",
+  "exports": {
+    ".": {
+      "import": "./lib/index.es.js",
+      "require": "./lib/index.umd.js",
+      "browser": "./lib/index.umd.js"
+    },
+    "./*": "./*"
+  },
+  "types": "./lib/index.d.ts",
   "author": "LiHowe <howe.personal@gmail.com>",
   "license": "MIT",
   "keywords": [
@@ -21,12 +34,13 @@
     "url": "https://github.com/LiHowe/suitcase/issues"
   },
   "files": [
-    "dist"
+    "lib"
   ],
   "description": "A collection of useful code snippets for Frontend Development.",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build"
+    "build": "tsc && vite build",
+    "type": "tsc --emitDeclarationOnly"
   },
   "devDependencies": {
     "typescript": "^4.5.4",

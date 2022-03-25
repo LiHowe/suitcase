@@ -1,4 +1,4 @@
-export default function range(start: number, end: number = Infinity, step: number = 1) {
+export function range(start: number, end: number = Infinity, step: number = 1) {
   return {
     [Symbol.iterator]() {
       return this

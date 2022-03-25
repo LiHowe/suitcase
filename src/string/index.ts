@@ -1,2 +1,2 @@
-export * as escape from './htmlEscape'
-export * as unescape from './htmlUnescape'
+export * from './htmlEscape'
+export * from './htmlUnescape'

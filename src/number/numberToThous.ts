@@ -1,1 +1,3 @@
-export default (num: number | string) => Number(num).toLocaleString('en-us')
+export function numberToThous (num: number | string) {
+  return Number(num).toLocaleString('en-us')
+}
