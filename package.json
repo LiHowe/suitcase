@@ -42,9 +42,11 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "type": "tsc --emitDeclarationOnly"
+    "type": "tsc --emitDeclarationOnly",
+    "example": "vite example"
   },
   "devDependencies": {
+    "@types/node": "^17.0.23",
     "typescript": "^4.5.4",
     "vite": "^2.8.0"
   }

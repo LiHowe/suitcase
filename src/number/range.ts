@@ -4,9 +4,10 @@ export function range(start: number, end: number = Infinity, step: number = 1) {
       return this
     },
     next() {
-      if (start < end) {
+      if (start <= end) {
+        const res = { value: start, done: false }
         start += step
-        return { value: start, done: false }
+        return res
       }
       return { value: undefined, done: true }
     }
