@@ -10,5 +10,10 @@ export default defineConfig({
       fileName: (format) => `index.${format}.js`
     },
     outDir: resolve(__dirname, './lib'),
+  },
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, './src'),
+    }
   }
 })
