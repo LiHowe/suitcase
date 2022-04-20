@@ -10,12 +10,13 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "declaration": true,
+    "emitDeclarationOnly": true,
     "noEmit": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "isolatedModules": true,
-    "outDir": "./lib"
+    "outDir": "lib"
   },
-  "include": ["src"]
+  "include": ["src/**/*"]
 }
