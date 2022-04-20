@@ -7,7 +7,7 @@ A collection of useful code snippets for Frontend Development.
 ### Install
 
 ```shell
-npm install suitcase
+npm install @ziho/suitcase
 # or pnpm
-pnpm add suitcase
+pnpm add @ziho/suitcase
 ```
