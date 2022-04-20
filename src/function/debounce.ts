@@ -12,7 +12,7 @@ export function debounce (
   let timer: any = null
   return function debounced (...args: any[]) {
     if (timer) clearTimeout(timer)
-    if　(immediate && !timer) {
+    if (immediate && !timer) {
       // @ts-ignore
       fn.apply(this, args)
     }
