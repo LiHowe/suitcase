@@ -11,8 +11,6 @@ export function invokeFnWithCatch<T>(
     try {
       return fn()
     } catch (e) {
-      if (onError) {
-        onError(e)
-      }
+      return (onError && onError(e))
     }
   }

@@ -11,3 +11,13 @@ npm install @ziho/suitcase
 # or pnpm
 pnpm add @ziho/suitcase
 ```
+
+### Feature
+
+#### Object
+
++ getType(obj)
+  
++ isObject(target)
+  
++ isTypeOf
