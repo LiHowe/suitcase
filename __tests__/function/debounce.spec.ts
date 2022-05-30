@@ -1,4 +1,4 @@
-import { debounce } from '../../src/function/debounce'
+import { debounce } from '../../src/functions/debounce'
 
 describe('debounce', () => {
   it('should debounce a function', () => {

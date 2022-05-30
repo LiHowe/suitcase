@@ -1,4 +1,4 @@
-import { invokeFnWithCatch } from '../../src/function/invokeFnWithCatch'
+import { invokeFnWithCatch } from '../../src/functions/invokeFnWithCatch'
 
 describe('invokeFnWithCatch', () => {
   it('should invoke a function with a catch', () => {

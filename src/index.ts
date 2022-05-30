@@ -1,4 +1,4 @@
 export * from './number'
 export * from './object'
 export * from './string'
-export * from './function'
+export * from './functions'
